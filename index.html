@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="wholeThing">
+
+    <div id="instructions">
+    <h1>Expense Calculator</h1>
+    
+    <p>Takes paycheck and divides out expenses.</p>
+    
+<input type="number" id="paycheck"> </input> <br><br>
+<input type="button" onclick="calculate()" value="Calculate"></input> <br><br>
+    </div>
+
+<div class="container">
+    <div class="expenseContainer">
+    <p class="expenseHeading">Housing</p> <input type="number" class="expensePercentInput" id="housingPercent"> </input>
+        </div>
+<p class="expense" id="housing"> </p>
+
+<div class="expenseContainer">
+    <p class="expenseHeading">Food</p> <input type="number" class="expensePercentInput" id="foodPercent"> </input>
+        </div>
+<p class="expense" id="food"> </p>
+
+<div class="expenseContainer">
+    <p class="expenseHeading">Insurance</p> <input type="number" class="expensePercentInput" id="insurancePercent"> </input>
+        </div>
+<p class="expense" id="insurance"> </p>
+
+<div class="expenseContainer">
+    <p class="expenseHeading">Utilities</p> <input type="number" class="expensePercentInput" id="utilitiesPercent"> </input>
+        </div>
+<p class="expense" id="utilities"> </p>
+
+<div class="expenseContainer">
+    <p class="expenseHeading">Misc</p> <input type="number" class="expensePercentInput" id="miscPercent"> </input>
+        </div>
+<p class="expense" id="misc"> </p>
+
+<div class="expenseContainer">
+    <p class="expenseHeading">Savings</p> <input type="number" class="expensePercentInput" id="savingsPercent"> </input>
+        </div>
+<p class="expense" id="savings"> </p>
+
+<!-- <div class="expenseContainer">
+    <p class="expenseHeading">Leftover</p> <input type="number" class="expensePercentInput" id="savingsPercent"> </input>
+        </div>
+<p class="expense" id="savings"> </p> -->
+
+</div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
